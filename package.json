@@ -1,20 +1,26 @@
 {
-  "name": "hide-and-seek-bar",
-  "version": "1.0.0",
-  "description": "Show and hide scroll bar on on y scroll. ",
-  "keywords": [],
-  "main": "src/index.js",
-  "dependencies": {
-    "react": "16.5.2",
-    "react-dom": "16.5.2",
-    "react-scripts": "2.0.3"
-  },
-  "devDependencies": {},
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
-  },
-  "browserslist": [">0.2%", "not dead", "not ie <= 11", "not op_mini all"]
+	"name": "hide-show-header",
+	"version": "1.0.0",
+	"description": "Hide/Show header on Scroll",
+	"keywords": [],
+	"main": "src/index.js",
+	"homepage": "https://aprather51.github.io/Hide-Show-Header",
+	"license": "MIT",
+	"dependencies": {
+		"node-sass": "^4.11.0",
+		"react": "16.5.2",
+		"react-dom": "16.5.2",
+		"react-scripts": "2.0.3"
+	},
+	"devDependencies": {
+		"gh-pages": "^2.0.1"
+	},
+	"scripts": {
+		"start": "react-scripts start",
+		"build": "react-scripts build",
+		"test": "react-scripts test --env=jsdom",
+		"eject": "react-scripts eject",
+		"deploy": "yarn build && gh-pages -d build"
+	},
+	"browserslist": [ ">0.2%", "not dead", "not ie <= 11", "not op_mini all" ]
 }
